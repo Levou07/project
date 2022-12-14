@@ -124,7 +124,6 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 60px;
-        flex-wrap: wrap;
         & h1{
             color: #22343D;
             font-size: 22px;
@@ -163,3 +162,92 @@
     display: none;
 }
 
+
+@media (max-width: 860px) {
+   .menuBtn{
+    display: block;
+   }
+   .partA__head-right{
+    display: none;
+   }
+   .partA__center-right{
+    display: none;
+   }
+   .partA__center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+   }
+   .partA__foot{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 800px;
+    max-width: 600px;
+   }
+   .partB__head-first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+}
+    .partB__head-second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    &-txt{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 600px;
+    }
+   }
+   .partB__head-third{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+   }
+   .partB__foot-txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+   }
+   .partB__foot-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+   }
+   .partC__head-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    position: relative;
+    right: 100px;
+   }
+   .partC__head-txt{
+    max-width: 600px;
+    position: relative;
+    right: 100px;
+   }
+   .partC__center-bg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 200px 100px;
+}
+   .partC__center{
+    height: 680px;
+    max-width: 600px;
+   }
+   .partC__center-left h1{
+    margin-top: -40px;
+   }
+}

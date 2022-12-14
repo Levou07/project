@@ -26,9 +26,9 @@ function PartA() {
           <a href="/">Resources</a>
           <button className='button1'>Sign In</button>
           <button className='button2'>Sign Up</button>
-          <a href="/#"><img src={dark} alt="Mode" /></a>
-          <a href="/"><img src={menu} alt="hamburgerBtn" className='menuBtn'/></a>
+          <a href="/#"><img src={dark} alt="Mode" className='mode'/></a>
         </div>
+          <a href="/"><img src={menu} alt="hamburgerBtn" className='menuBtn'/></a>
       </div>
       {/* center */}
       <div className="partA__center">
