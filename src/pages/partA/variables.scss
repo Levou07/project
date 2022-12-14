@@ -1,5 +1,243 @@
-@mixin breakpoint ($screen_width){
-    @media only screen and (max-width: $screen_width){
-        @content        
+@media (max-width: 1400px){
+    .partA__wrapper{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partA__head{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partA__footer{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partB__head{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partB__center{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partB__foot{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partC__head{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partC__center{
+        max-width: 900px;
+        margin: 0 auto;
     }
 }
+
+@media (max-width: 1200px){
+    .partA__wrapper{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partA__head{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partA__footer{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partB__wrapper{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partB__center{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partB__foot{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partC__head{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .partC__center{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px){
+    .partA__wrapper{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .partA__head{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .partA__footer{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .partB__wrapper{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .partB__center{
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        right: 230px;
+    }
+    .partB__foot{
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        right: 260px;
+    }
+    .partC__head{
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        right: 260px;
+    }
+    .partC__center{
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        right: 260px;   
+    }
+}
+
+@media (max-width:760px) {
+    .partC__center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .partC__head-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &-first, &-second, &-third{
+            margin-top: 20px;
+        }
+    }
+    .partB__foot-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .partB__foot-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .partB__head{
+        max-width: 820px;
+        margin: 0 auto;
+        &-first{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            right: 240px;
+        }
+        &-second{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            right: 240px;
+        }
+        &-third{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            right: 240px;
+        }
+    }
+
+    .partA__foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &-first{
+            text-align: center;
+        }
+        &-second{
+            text-align: center;
+        }
+        &-third{
+            text-align: center;
+        }
+        &-fourth{
+            text-align: center;
+        }
+    }
+    .partA__wrapper{
+        max-width: 760px;
+        margin: 0 auto;
+    }
+    .partA__head{
+        max-width:  760px;
+        margin: 0 auto;
+        .hamburger{
+            display: block;
+        }
+        &-right{
+            display: none;
+            a, button{
+                display: none;
+            }
+        }
+    }
+    .partA__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        img{
+            margin-top: 20px;
+        }
+    }
+}
+
+
+// @media (min-width: 500px){
+//     .partC__head{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         flex-direction: column;
+//         &-cards{
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             flex-direction: column;
+//         }
+//     }
+//     .partB__foot{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         flex-direction: column;
+//         &-cards{
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             flex-direction: column;
+//         }
+//     }
+// }

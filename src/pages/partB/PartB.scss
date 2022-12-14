@@ -1,5 +1,5 @@
 .partB-wrapper{
-    max-width: 1400px;
+    width: 1400px;
     margin: 0 auto;
     margin-top: 180px;
 }
@@ -223,6 +223,7 @@
         font-family: sans-serif;
         color: #22343D;
         margin-top: -10px;
+        text-align: center;
     }
     &-cards{
         display: flex;
