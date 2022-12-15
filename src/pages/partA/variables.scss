@@ -1,4 +1,12 @@
 @media (max-width:760px) {
+    .partB__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
     .partC__center{
         display: flex;
         align-items: center;
@@ -16,6 +24,8 @@
         margin-left: 0;
         &-first, &-second, &-third{
             margin-top: 20px;
+            width: 100%;
+            margin-left: 0;
         }
     }
     .partB__foot-txt{
@@ -45,6 +55,8 @@
             flex-direction: column;
             position: relative;
             right: 240px;
+            width: 100%;
+            margin-left: 0;
         }
         &-second{
             display: flex;
@@ -53,6 +65,8 @@
             flex-direction: column;
             position: relative;
             right: 240px;
+            width: 100%;
+            margin-left: 0;
         }
         &-third{
             display: flex;
@@ -61,6 +75,8 @@
             flex-direction: column;
             position: relative;
             right: 240px;
+            width: 100%;
+            margin-left: 0;
         }
     }
 
@@ -73,15 +89,23 @@
         margin-left: 0;
         &-first{
             text-align: center;
+            width: 100%;
+            margin-left: 0;
         }
         &-second{
             text-align: center;
+            width: 100%;
+            margin-left: 0;
         }
         &-third{
             text-align: center;
+            width: 100%;
+            margin-left: 0;
         }
         &-fourth{
             text-align: center;
+            width: 100%;
+            margin-left: 0;
         }
     }
     .partA__wrapper{
@@ -93,11 +117,15 @@
         margin-left: 0;
         .hamburger{
             display: block;
+            width: 100%;
+            margin-left: 0;
         }
         &-right{
             display: none;
             a, button{
                 display: none;
+                width: 100%;
+                margin-left: 0;
             }
         }
     }
@@ -110,7 +138,16 @@
     margin-left: 0;
         img{
             margin-top: 20px;
+            width: 100%;
+            margin-left: 0;
         }
+    }
+    h1, h2, h3, p{
+        width: 100%;
+        margin-left: 0;
+    }
+    img{
+        margin-left: 0;
     }
 }
 
