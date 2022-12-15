@@ -9,8 +9,14 @@ import water from './img/water.png'
 import like from './img/like.png'
 import time from './img/time.png'
 import menu from './img/menu.png'
+import { useState } from 'react'
 
 function PartA() {
+  const [use, setUse] = useState()
+
+  function btn(){
+
+  }
   return (
     <div className='partA__wrapper'>
       <div className="partA__head" >
@@ -28,7 +34,7 @@ function PartA() {
           <a href="/#"><img src={dark} alt="Mode" className='mode'/></a>
         </div>
         <div className="hamburger">
-          <a href="/"><img src={menu} alt="hamburgerBtn" className='menuBtn'/></a>
+          <a href="/" onClick={btn}><img src={menu} alt="hamburgerBtn" className='menuBtn'/></a>
         </div>
       </div>
       {/* center */}
