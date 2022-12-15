@@ -4,7 +4,7 @@
         margin-left: 0;
     }
     .partA__head{
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
     .partA__footer{
@@ -45,7 +45,7 @@
         margin-left: 0;
     }
     .partA__head{
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
     .partA__footer{
@@ -80,7 +80,7 @@
         margin-left: 0;
     }
     .partA__head{
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
     .partA__footer{
@@ -119,12 +119,16 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
     }
     .partC__head-cards{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
         &-first, &-second, &-third{
             margin-top: 20px;
         }
@@ -134,15 +138,21 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
     }
     .partB__foot-cards{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
     }
     .partB__head{
-        margin: 0 auto;
+        width: 100%;
+        margin-left: 0;
+        
         &-first{
             display: flex;
             align-items: center;
@@ -174,6 +184,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
         &-first{
             text-align: center;
         }
@@ -188,12 +200,10 @@
         }
     }
     .partA__wrapper{
-        max-width: 760px;
         width: 100%;
         margin-left: 0;
     }
     .partA__head{
-        max-width: 760px;
         width: 100%;
         margin-left: 0;
         .hamburger{
@@ -211,6 +221,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    margin-left: 0;
         img{
             margin-top: 20px;
         }
