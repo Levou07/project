@@ -4,14 +4,18 @@
 .partA__wrapper{
     width: 1400px;
     margin: 0 auto;
+    background-color: #afafaf;
+    padding: 20px 0;
 }
 .partA__head{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    width: 1400px;
+    top: 0px;
     background-color: #afafaf;
+    height: 70px;
     &-right a{
         color: #22343D;
         font-family: 'Roboto', sans-serif;

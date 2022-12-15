@@ -1,6 +1,8 @@
 .partC-wrapper{
     width: 1400px;
     margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px 0;
 }
 
 // 
@@ -103,7 +105,12 @@
         height: 450px;
         border: 1px solid #aaaaaa;
         border-radius: 10px;
-        box-shadow: 0px 10px 10px 5px #aaaaaa;
+    }
+    .card:hover{
+        position: relative;
+        bottom: 10px;
+        box-shadow: 0px 20px 10px 2px #aaaaaa;
+        transition: 0.5s ease all;
     }
     
 }
